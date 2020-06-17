@@ -1,0 +1,42 @@
+{
+  "name": "meblog",
+  "version": "1.0.0",
+  "description": "a blog for github page by vuepress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zicokuo/zicokuo.github.io.git"
+  },
+  "author": "zico",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zicokuo/zicokuo.github.io/issues"
+  },
+  "homepage": "https://github.com/zicokuo/zicokuo.github.io#readme",
+  "devDependencies": {
+    "@vuepress/plugin-blog": "^1.7.0",
+    "deepmerge": "^4.2.2",
+    "fibers": "^4.0.2",
+    "sass": "^1.24.2",
+    "sass-loader": "^8.0.0",
+    "travis": "^0.1.1",
+    "vuetify": "^2.2.1",
+    "vuetify-loader": "^1.4.3",
+    "vuepress": "^1.2.0",
+    "@vssue/api-github-v4": "^1.4.0"
+
+  },
+  "dependencies": {
+    "@mdi/font": "^4.7.95",
+    "vuepress-plugin-baidu-autopush": "^1.0.1",
+    "@vssue/vuepress-plugin-vssue": "^1.4.2",
+    "vue-cookies": "^1.6.1",
+    "vuepress-plugin-comment": "^0.7.2",
+    "lodash": "4.17.15"
+  }
+}
